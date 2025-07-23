@@ -124,3 +124,51 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+/* Contact Page Styles */
+
+.contact-container {
+  max-width: 800px;
+  margin: 5% auto;
+  background-color: #f8f9fa;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-header {
+  font-size: 32px;
+  color: rgb(97, 64, 128);
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact-info p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.contact-subheader {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: rgb(97, 64, 128);
+  font-weight: 600;
+}
+
+.contact-form .form-group label {
+  font-weight: 600;
+  color: rgb(97, 64, 128);
+}
+
+.contact-form .btn-primary {
+  background-color: rgb(97, 64, 128);
+  border: none;
+}
+
+.contact-form .btn-primary:hover {
+  background-color: rgb(120, 80, 160);
+  border: none;
+}
