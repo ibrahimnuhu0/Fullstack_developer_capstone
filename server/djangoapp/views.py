@@ -15,6 +15,7 @@ import json
 from django.views.decorators.csrf import csrf_exempt
 from .populate import initiate
 from .models import CarMake, CarModel
+from .restapis import get_request, post_review, analyze_review_sentiments
 
 
 
@@ -121,7 +122,7 @@ def get_dealer_details(request, dealer_id):
         dealership = get_request(endpoint)
         return JsonResponse({"status":200,"dealer":dealership})
     else:
-        return JsonResponse({"status":400,"message":"Bad Request"}).
+        return JsonResponse({"status":400,"message":"Bad Request"})
 
 # Create a `add_review` view to submit a review
 def add_review(request):
