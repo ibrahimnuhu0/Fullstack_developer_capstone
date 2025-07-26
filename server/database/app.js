@@ -1,5 +1,4 @@
-/* eslint-env es8 */
-/* eslint-disable no-console */
+/*jshint esversion: 8 */
 
 const express = require('express');
 const mongoose = require('mongoose');
